@@ -1,18 +1,18 @@
 <?php
 
-function luas_lingkaran($jariJari)
+public function luas_lingkaran($jariJari)
 {
     $luas = 3.14 * ($jariJari ** 2);
     echo number_format($luas, 2) . "\n";
 }
 
-function keliling_lingkaran($jariJari)
+public function keliling_lingkaran($jariJari)
 {
     $keliling = 2 * 3.14 * $jariJari;
     echo number_format($keliling, 2) . "\n";
 }
 
-function luas_persegi($panjang, $lebar)
+public function luas_persegi($panjang, $lebar)
 {
     $luas = $panjang * $lebar;
     echo number_format($luas, 2) . "\n";
